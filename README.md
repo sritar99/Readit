@@ -6,9 +6,9 @@ The Readit application allows users that to get an Latest news that is published
 
 # Snapshots of Screen Boards
 
-<img src="snapshots/Home.png" width ="240" height ="400"> <img src="snapshots/Home1.png" width ="240" height ="400"><img src="snapshots/v1.png" width ="240" height ="400">
+<img src="snapshots/Home.png" width ="240" height ="400"> <img src="snapshots/Home1.png" width ="240" height ="400"><img src="snapshots/V1.png" width ="240" height ="400">
 
-<img src="snapshots/v2.png" width ="240" height ="400"><img src="snapshots/v3.png" width ="240" height ="400"><img src="snapshots/v4.png" width ="240" height ="400">
+<img src="snapshots/V2.png" width ="240" height ="400"><img src="snapshots/v3.png" width ="240" height ="400"><img src="snapshots/v4.png" width ="240" height ="400">
 
 
 
