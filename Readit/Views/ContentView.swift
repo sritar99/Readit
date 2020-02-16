@@ -7,16 +7,20 @@
 //
 
 import SwiftUI
-
+import WebKit
+@available(iOS 13.0, *)
 struct ContentView: View {
     @ObservedObject var networkmanager = NetworkManager()
     var body: some View {
         NavigationView{
             List(networkmanager.posts){ post in
-                HStack {
-                    Text(String(post.points))
-                    Text(post.title)
+                NavigationLink(destination: DetailView(url: post.url)) {
+                    HStack {
+                        Text(String(post.points))
+                        Text(post.title)
+                    }
                 }
+                
                 
             }
         .navigationBarTitle("Readit")
@@ -27,7 +31,11 @@ struct ContentView: View {
     }
 }
 
+@available(iOS 13.0, *)
+@available(iOS 13.0.0, *)
+@available(iOS 13.0.0, *)
 struct ContentView_Previews: PreviewProvider {
+    @available(iOS 13.0, *)
     static var previews: some View {
         ContentView()
     }

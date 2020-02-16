@@ -8,6 +8,7 @@
 
 import Foundation
 
+@available(iOS 13.0, *)
 class NetworkManager: ObservableObject {
     @Published var posts = [Post]()
     func fetchData(){

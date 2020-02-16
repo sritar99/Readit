@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D116EF823F90A6A00EB083C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D116EF723F90A6A00EB083C /* DetailView.swift */; };
 		8D87623123F8E903006C387F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D87623023F8E903006C387F /* AppDelegate.swift */; };
 		8D87623323F8E903006C387F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D87623223F8E903006C387F /* SceneDelegate.swift */; };
 		8D87623523F8E903006C387F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D87623423F8E903006C387F /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D116EF723F90A6A00EB083C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		8D87622D23F8E903006C387F /* Readit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D87623023F8E903006C387F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D87623223F8E903006C387F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D116EF623F90A4600EB083C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D87623423F8E903006C387F /* ContentView.swift */,
+				8D116EF723F90A6A00EB083C /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8D87622423F8E903006C387F = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +73,7 @@
 			children = (
 				8D87623023F8E903006C387F /* AppDelegate.swift */,
 				8D87623223F8E903006C387F /* SceneDelegate.swift */,
-				8D87623423F8E903006C387F /* ContentView.swift */,
+				8D116EF623F90A4600EB083C /* Views */,
 				8D87624623F8F7D6006C387F /* Models */,
 				8D87623623F8E908006C387F /* Assets.xcassets */,
 				8D87623B23F8E908006C387F /* LaunchScreen.storyboard */,
@@ -161,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D87624823F8F9D9006C387F /* PostData.swift in Sources */,
+				8D116EF823F90A6A00EB083C /* DetailView.swift in Sources */,
 				8D87624523F8F7CD006C387F /* NetworkManager.swift in Sources */,
 				8D87623123F8E903006C387F /* AppDelegate.swift in Sources */,
 				8D87623323F8E903006C387F /* SceneDelegate.swift in Sources */,
@@ -305,6 +317,7 @@
 				DEVELOPMENT_TEAM = SAQ3H6MLH6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Readit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +338,7 @@
 				DEVELOPMENT_TEAM = SAQ3H6MLH6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Readit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
